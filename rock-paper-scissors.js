@@ -116,5 +116,8 @@ function pickComputerMove() {
 }
 
 function autoPlay() {
-    
+    setInterval(function() {
+        const playerMove = pickComputerMove();
+        playGame(playerMove);
+    }, 1000)
 }
