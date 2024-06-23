@@ -114,3 +114,7 @@ function pickComputerMove() {
     return computerMove;
 
 }
+
+function autoPlay() {
+    
+}
